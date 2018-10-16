@@ -4,9 +4,11 @@ function BoardMember(name, homeState, training){
   this.training = training;
 }
 
-User.prototype.veto = function(){
-  return 'No, I must disagree';
-}
+User.prototype.veto = function() {
+    return 'No, I must disagree';
+};
+
+
 
 // User.prototype.approve = function(){
 //   return 'You can do that!'
